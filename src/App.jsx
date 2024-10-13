@@ -1,8 +1,10 @@
+import NavbarPage from "./components/Navbar"
+
 function App() {
 
   return (
     <>
-     <h1>Hey yo</h1>
+     <NavbarPage />
     </>
   )
 }
