@@ -1,3 +1,4 @@
+import FeatureSection from "./components/FeatureSection"
 import HeroSection from "./components/HeroSection"
 import NavbarPage from "./components/Navbar"
 
@@ -8,6 +9,7 @@ function App() {
       <NavbarPage />
       <div className="mt-5 max-w-7xl md:mx-auto mx-5 ">
         <HeroSection />
+        <FeatureSection />
       </div>
     </>
   )
