@@ -1,10 +1,14 @@
+import HeroSection from "./components/HeroSection"
 import NavbarPage from "./components/Navbar"
 
 function App() {
 
   return (
     <>
-     <NavbarPage />
+      <NavbarPage />
+      <div className="mt-5 max-w-7xl md:mx-auto mx-5 ">
+        <HeroSection />
+      </div>
     </>
   )
 }

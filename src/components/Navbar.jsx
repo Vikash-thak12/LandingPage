@@ -9,7 +9,7 @@ const NavbarPage = () => {
     }
     return (
         <main>
-            <div className="border flex items-center justify-between px-10 py-5">
+            <div className="sticky top-0 z-50 backdrop-blur-lg shadow-md shadow-gray-600 flex items-center justify-between px-10 py-5">
                 <div>
                     <h1>Vikash</h1>
                 </div>
